@@ -1,0 +1,10 @@
+const prompt = require ("prompt-sync")();
+let compteur=0;
+let chaine = [];
+let chaine=prompt("entrer la chaine de caractere : ");
+for (let i = 1; i <= chaine.lenght; i++) {
+if (chaine[i]===e || chaine[i]===i || chaine[i]===o || chaine[i]===y ||chaine[i]===u || chaine[i]===a)
+{
+compteur++;
+}
+console.log(" nombre de voyelles est : ",compteur);
