@@ -10,11 +10,15 @@ min =t[0];
 max=t[0];
 
 for (let i = 0; i <=7; i++) {
-    if(min<t[i]){
-        min=t[i]
+    if(t[i]<min){
+        min=t[i];
     }
 }
-
+for (let i = 0; i <=7; i++) {
+    if(t[i]<max){
+        max=t[i];
+    }
+}
 
 console.log("min :",min);
 console.log("max :",max);
