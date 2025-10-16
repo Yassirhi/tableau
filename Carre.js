@@ -1,6 +1,7 @@
 const prompt = require ("prompt-sync")();
 let t = [];
 let i=0;
+let d;
 do {
     let num=+prompt("entrer le nombre : ");
     t[i]=num;
